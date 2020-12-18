@@ -6,33 +6,46 @@ Pre-step: install Anaconda and set environment (my environment name is 'pt', you
 
 Step 1： 
 
-    On graphite: 	source activate pt
+   On graphite:     
+    
+    source activate pt
     
 Step 2:
 
-    On graphite:	which python
+   On graphite:	   
+   
+    which python
     
 Step 3:
 
-    Get print: 	/home/zy223/.conda/envs/pt/bin/python; We will use the file path for bin: /home/zy223/.conda/envs/pt/bin/
+   Get print: 	/home/zy223/.conda/envs/pt/bin/python; 
+   We will use the file path for bin: /home/zy223/.conda/envs/pt/bin/
     
 Step 4:
 
-    On graphite:	export PATH=/home/zy223/.conda/envs/pt/bin/:$PATH
+   On graphite:	
+    
+    export PATH=/home/zy223/.conda/envs/pt/bin/:$PATH
     
 Step 5:
 
-    On local machine:   ssh your_netid@graphite-login.coecis.cornell.edu -L 127.0.0.1:1234:NODE_NAME:8888 
-    (For Prof. Cardie's student, an example here for NODE_NAME is nikola-compute05)
+   On local machine: 
+    
+    ssh your_netid@graphite-login.coecis.cornell.edu -L 127.0.0.1:1234:NODE_NAME:8888 
+   (For Prof. Cardie's student, an example here for NODE_NAME is nikola-compute05)
 
 Step 6:
 
-    On grahite:     srun -p interactive --pty --nodelist=NODE_NAME /bin/bash
+   On grahite:     
+   
+    srun -p interactive --pty --nodelist=NODE_NAME /bin/bash
 
 Step 7:
 
-    On grahite:     XDG_RUNTIME_DIR=/tmp/your_netid jupyter-notebook --ip=0.0.0.0 --port=8888
+   On grahite:     
+   
+    XDG_RUNTIME_DIR=/tmp/your_netid jupyter-notebook --ip=0.0.0.0 --port=8888
     
 Step 8:
 
-    On local browser:    http://127.0.0.1:1234/?token=LONG_ALPHANUMERIC_STRING_FROM_JUPYTER-NOTEBOOK_OUTPUT
+   On local browser:    http://127.0.0.1:1234/?token=LONG_ALPHANUMERIC_STRING_FROM_JUPYTER-NOTEBOOK_OUTPUT
