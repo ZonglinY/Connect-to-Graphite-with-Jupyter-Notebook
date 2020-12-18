@@ -12,7 +12,7 @@ Pre-step:
 install Anaconda and set up your environment ``<env_name>``
 
 
-Step 1:  On graphite:     
+Step 1: On graphite,     
 
     
     source activate <env_name>
@@ -36,9 +36,6 @@ Step 5: On local machine,
 
     ssh <your_netid>@graphite-login.coecis.cornell.edu -L 127.0.0.1:1234:NODE_NAME:8888 
    (For Claire's student, an example here for ``NODE_NAME`` is nikola-compute05)
-
-    ssh your_netid@graphite-login.coecis.cornell.edu -L 127.0.0.1:1234:NODE_NAME:8888 
-   (For Prof. Cardie's student, an example here for NODE_NAME is nikola-compute05)
    
    (If 8888 is used, change it with any number between 8000 and 10000, but note that you should also change the port number in step 7 with the number you use in this step)
 
