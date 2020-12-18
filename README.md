@@ -14,7 +14,7 @@ Step 2:  On graphite:
     
 Step 3:
    Get print: 	/home/zy223/.conda/envs/pt/bin/python; 
-   We will use the file path for bin: /home/zy223/.conda/envs/pt/bin/
+   We will use the file path for bin in next step: /home/zy223/.conda/envs/pt/bin/
     
 Step 4:  On graphite:	
     
