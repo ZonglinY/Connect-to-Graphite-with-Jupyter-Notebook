@@ -11,9 +11,6 @@ Pre-step:
 
 install Anaconda and set up your environment ``<env_name>``
 
-Step 1: On graphite,    
-
-Pre-step: install Anaconda and set up an environment (my environment name is 'pt', you should substitute 'pt' with your own environment name in following steps)
 
 Step 1:  On graphite:     
 
