@@ -1,4 +1,4 @@
-# Connect-to-Graphite-with-Jupyter-Notebook
+# Connect-to-Graphite-to-use-Jupyter-Notebook
 
 This tips follows official suggestions by IT department (https://it.coecis.cornell.edu/researchit/graphitegpu/)
 
