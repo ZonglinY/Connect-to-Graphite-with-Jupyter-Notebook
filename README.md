@@ -2,7 +2,7 @@
 
 This tips follows official suggestions by IT department (https://it.coecis.cornell.edu/researchit/graphitegpu/)
 
-Pre-step: install Anaconda and set up environment (my environment name is 'pt', you should substitute 'pt' with your own environment name in following steps)
+Pre-step: install Anaconda and set up an environment (my environment name is 'pt', you should substitute 'pt' with your own environment name in following steps)
 
 Step 1:  On graphite:     
     
