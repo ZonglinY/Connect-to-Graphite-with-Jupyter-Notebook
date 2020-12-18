@@ -31,7 +31,7 @@ Step 6:
 
 Step 7:
 
-    On grahite:     XDG_RUNTIME_DIR=/tmp/zy223 jupyter-notebook --ip=0.0.0.0 --port=8888
+    On grahite:     XDG_RUNTIME_DIR=/tmp/your_netid jupyter-notebook --ip=0.0.0.0 --port=8888
     
 Step 8:
 
